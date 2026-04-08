@@ -95,7 +95,7 @@ install_repo() {
 # ════════════════════════════════════════════════════════════
 # 1. FOUNDATION — Code quality & writing quality
 # ════════════════════════════════════════════════════════════
-echo -e "${BOLD}1/5 Foundation${NC}"
+echo -e "${BOLD}1/6 Foundation${NC}"
 
 # Superpowers — TDD, debugging, planning
 install_skill "superpowers-tdd"   "obra/superpowers" "skills/test-driven-development/SKILL.md"
@@ -111,7 +111,7 @@ echo ""
 # ════════════════════════════════════════════════════════════
 # 2. DESIGN & BRANDING
 # ════════════════════════════════════════════════════════════
-echo -e "${BOLD}2/5 Design & Branding${NC}"
+echo -e "${BOLD}2/6 Design & Branding${NC}"
 
 # UI/UX Pro Max — 50+ styles, 161 palettes, 10 stacks
 info "Installing ui-ux-pro-max..."
@@ -131,7 +131,7 @@ echo ""
 # ════════════════════════════════════════════════════════════
 # 3. MARKETING & GROWTH (two full suites)
 # ════════════════════════════════════════════════════════════
-echo -e "${BOLD}3/5 Marketing & Growth${NC}"
+echo -e "${BOLD}3/6 Marketing & Growth${NC}"
 
 # coreyhaines31/marketingskills — 30+ marketing skills
 info "Installing marketingskills suite..."
@@ -169,7 +169,7 @@ echo ""
 # ════════════════════════════════════════════════════════════
 # 4. CODING & AI ORCHESTRATION
 # ════════════════════════════════════════════════════════════
-echo -e "${BOLD}4/5 Coding & AI${NC}"
+echo -e "${BOLD}4/6 Coding & AI${NC}"
 
 # MCP builder (official Anthropic)
 install_skill "mcp-builder" "anthropics/skills" "skills/mcp-builder/SKILL.md"
@@ -197,9 +197,22 @@ fi
 echo ""
 
 # ════════════════════════════════════════════════════════════
-# 5. REMOTE ACCESS
+# 5. PLATFORM SKILLS (Shopify + fal.ai)
 # ════════════════════════════════════════════════════════════
-echo -e "${BOLD}5/5 Remote Access${NC}"
+echo -e "${BOLD}5/6 Platform Skills${NC}"
+
+# Shopify Liquid — theme development
+install_skill "shopify-liquid" "lunaticfluker/shopify-liquid-skill" "SKILL.md"
+
+# fal.ai — image, video & audio generation
+install_skill "fal-ai" "lunaticfluker/fal-ai-skill" "SKILL.md"
+
+echo ""
+
+# ════════════════════════════════════════════════════════════
+# 6. REMOTE ACCESS
+# ════════════════════════════════════════════════════════════
+echo -e "${BOLD}6/6 Remote Access${NC}"
 
 # Claude Web Remote — browser access from any device
 install_skill "remote" "lunaticfluker/claude-web-remote" "SKILL.md"

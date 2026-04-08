@@ -44,7 +44,13 @@ bash claude-founder-kit/install.sh
 | webapp-testing | [anthropics/skills](https://github.com/anthropics/skills) | Playwright-based web app testing |
 | wshobson/agents | [wshobson/agents](https://github.com/wshobson/agents) | Agent orchestration skills + agent definitions |
 
-### 5. Remote Access
+### 5. Platform Skills
+| Skill | Source | What it does |
+|-------|--------|-------------|
+| shopify-liquid | [lunaticfluker/shopify-liquid-skill](https://github.com/lunaticfluker/shopify-liquid-skill) | Shopify Online Store 2.0 theme development — Liquid, sections, schemas, CLI workflows |
+| fal-ai | [lunaticfluker/fal-ai-skill](https://github.com/lunaticfluker/fal-ai-skill) | Image, video & audio generation with Flux Pro, Kling, 600+ models — Python & JS SDKs |
+
+### 6. Remote Access
 | Skill | Source | What it does |
 |-------|--------|-------------|
 | remote | [lunaticfluker/claude-web-remote](https://github.com/lunaticfluker/claude-web-remote) | Browser access to Claude Code from iPad/phone via ttyd + Cloudflare tunnels + QR codes |
@@ -58,6 +64,8 @@ Skills auto-trigger based on context. You don't invoke them manually — just de
 - "audit my SEO" → triggers seo-audit
 - "write a cold email sequence" → triggers cold-email + email-sequence
 - "design a pricing page" → triggers ui-ux-pro-max + pricing-strategy
+- "build a Shopify section" → triggers shopify-liquid
+- "generate an image with fal.ai" → triggers fal-ai
 
 ## Prerequisites
 
@@ -90,6 +98,8 @@ This kit curates skills from these open source projects:
 - [wshobson/agents](https://github.com/wshobson/agents) — WS Hobson
 - [anthropics/skills](https://github.com/anthropics/skills) — Anthropic
 - [lunaticfluker/claude-web-remote](https://github.com/lunaticfluker/claude-web-remote) — freeformsystems.ai
+- [lunaticfluker/shopify-liquid-skill](https://github.com/lunaticfluker/shopify-liquid-skill) — freeformsystems.ai
+- [lunaticfluker/fal-ai-skill](https://github.com/lunaticfluker/fal-ai-skill) — freeformsystems.ai
 
 ## License
 
