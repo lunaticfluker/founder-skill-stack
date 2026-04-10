@@ -123,6 +123,17 @@ else
   fail "ui-ux-pro-max"
 fi
 
+# Anti-Slop Design — opinionated design for UI, photos, logos (4 systems, 5 rule sets)
+info "Installing anti-slop-design..."
+if [ "$(install_repo anti-slop-design lunaticfluker/anti-slop-design)" = "true" ]; then
+  mkdir -p "$SKILLS_DIR/anti-slop-design"
+  cp -r /tmp/_kit_anti-slop-design/SKILL.md /tmp/_kit_anti-slop-design/rules /tmp/_kit_anti-slop-design/systems "$SKILLS_DIR/anti-slop-design/" 2>/dev/null && \
+    ok "anti-slop-design" || fail "anti-slop-design"
+  rm -rf /tmp/_kit_anti-slop-design
+else
+  fail "anti-slop-design"
+fi
+
 # Brand guidelines (official Anthropic)
 install_skill "brand-guidelines" "anthropics/skills" "skills/brand-guidelines/SKILL.md"
 

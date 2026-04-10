@@ -29,6 +29,7 @@ bash claude-founder-kit/install.sh
 | Skill | Source | What it does |
 |-------|--------|-------------|
 | ui-ux-pro-max | [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | 50+ styles, 161 palettes, 57 font pairings, 10 stacks |
+| anti-slop-design | [lunaticfluker/anti-slop-design](https://github.com/lunaticfluker/anti-slop-design) | Anti-slop design for UI, photos, logos — 4 opinionated systems, Tailwind + shadcn patterns |
 | brand-guidelines | [anthropics/skills](https://github.com/anthropics/skills) | Official Anthropic brand system |
 
 ### 3. Marketing & Growth (~40 skills)
@@ -97,6 +98,7 @@ This kit curates skills from these open source projects:
 - [zubair-trabzada/ai-marketing-claude](https://github.com/zubair-trabzada/ai-marketing-claude) — Zubair Trabzada
 - [wshobson/agents](https://github.com/wshobson/agents) — WS Hobson
 - [anthropics/skills](https://github.com/anthropics/skills) — Anthropic
+- [lunaticfluker/anti-slop-design](https://github.com/lunaticfluker/anti-slop-design) — freeformsystems.ai
 - [lunaticfluker/claude-web-remote](https://github.com/lunaticfluker/claude-web-remote) — freeformsystems.ai
 - [lunaticfluker/shopify-liquid-skill](https://github.com/lunaticfluker/shopify-liquid-skill) — freeformsystems.ai
 - [lunaticfluker/fal-ai-skill](https://github.com/lunaticfluker/fal-ai-skill) — freeformsystems.ai
