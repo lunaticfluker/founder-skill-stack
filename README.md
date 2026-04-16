@@ -19,6 +19,7 @@ bash claude-founder-kit/install.sh
 ### 1. Foundation
 | Skill | Source | What it does |
 |-------|--------|-------------|
+| pm-protocol | [lunaticfluker/pm-protocol-skill](https://github.com/lunaticfluker/pm-protocol-skill) | Autonomous session lifecycle — start protocol, skill loading, hard stop gates, auto session-end (blog draft + log + memory + push check) |
 | superpowers-tdd | [obra/superpowers](https://github.com/obra/superpowers) | Test-driven development workflow |
 | superpowers-debug | [obra/superpowers](https://github.com/obra/superpowers) | Systematic debugging before proposing fixes |
 | superpowers-plan | [obra/superpowers](https://github.com/obra/superpowers) | Subagent-driven implementation planning |
@@ -98,11 +99,11 @@ This kit curates skills from these open source projects:
 - [zubair-trabzada/ai-marketing-claude](https://github.com/zubair-trabzada/ai-marketing-claude) — Zubair Trabzada
 - [wshobson/agents](https://github.com/wshobson/agents) — WS Hobson
 - [anthropics/skills](https://github.com/anthropics/skills) — Anthropic
-- [lunaticfluker/anti-slop-design](https://github.com/lunaticfluker/anti-slop-design) — freeformsystems.ai
-- [lunaticfluker/claude-web-remote](https://github.com/lunaticfluker/claude-web-remote) — freeformsystems.ai
-- [lunaticfluker/shopify-liquid-skill](https://github.com/lunaticfluker/shopify-liquid-skill) — freeformsystems.ai
-- [lunaticfluker/fal-ai-skill](https://github.com/lunaticfluker/fal-ai-skill) — freeformsystems.ai
+- [lunaticfluker/anti-slop-design](https://github.com/lunaticfluker/anti-slop-design) — FLUKER FREEFORM · freeformsystems.ai
+- [lunaticfluker/claude-web-remote](https://github.com/lunaticfluker/claude-web-remote) — FLUKER FREEFORM · freeformsystems.ai
+- [lunaticfluker/shopify-liquid-skill](https://github.com/lunaticfluker/shopify-liquid-skill) — FLUKER FREEFORM · freeformsystems.ai
+- [lunaticfluker/fal-ai-skill](https://github.com/lunaticfluker/fal-ai-skill) — FLUKER FREEFORM · freeformsystems.ai
 
 ## License
 
-MIT — lunaticfluker / freeformsystems.ai
+MIT — FLUKER FREEFORM · freeformsystems.ai
