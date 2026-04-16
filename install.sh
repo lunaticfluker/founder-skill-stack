@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # ============================================================
 # Claude Founder Kit — One-command skill stack for founders
-# by lunaticfluker / freeformsystems.ai
+# by FLUKER FREEFORM — freeformsystems.ai
 #
 # Installs 60+ Claude Code skills for branding, marketing,
 # product strategy, UI/UX, coding, and remote access.
@@ -37,7 +37,7 @@ echo " | _/ _ \ || | ' \/ _\` / -_) '_|  | ' <| |  _|"
 echo " |_|\___/\_,_|_||_\__,_\___|_|    |_|\_\_|\__|"
 echo -e "${NC}"
 echo -e "  ${CYAN}Claude Code skill stack for founders${NC}"
-echo -e "  ${CYAN}by freeformsystems.ai${NC}"
+echo -e "  ${CYAN}by FLUKER FREEFORM — freeformsystems.ai${NC}"
 echo ""
 
 # ── Prerequisites ────────────────────────────────────────────
@@ -96,6 +96,9 @@ install_repo() {
 # 1. FOUNDATION — Code quality & writing quality
 # ════════════════════════════════════════════════════════════
 echo -e "${BOLD}1/6 Foundation${NC}"
+
+# PM Protocol — autonomous session lifecycle (start, gates, session-end automation)
+install_skill "pm-protocol" "lunaticfluker/pm-protocol-skill" "SKILL.md"
 
 # Superpowers — TDD, debugging, planning
 install_skill "superpowers-tdd"   "obra/superpowers" "skills/test-driven-development/SKILL.md"
